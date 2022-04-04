@@ -38,9 +38,27 @@ section {
 
 
 /* ABOUT */
+#about #contact{
+
+}
 #about {
     padding-top: 100px;
     background: #0c2c44;
+/*    height: 850px;*/
+}
+#about h5{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #8ec3eb;
+}
+#about h6 a, #about h6 {
+    font-family: sans-serif;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+}
+#about h6 a:hover{
+    color: #8ec3eb;
 }
 .profile-picture {
     text-align: center;
@@ -315,7 +333,8 @@ section {
 
 /* RECOMMANDATIONS */
 #recommandations {
-  background: white;   
+  background: white;
+  height: 400px;
 }
 #recommandations .heading h2 {
   color: #0c2c44;   
@@ -396,8 +415,3 @@ footer h5 {
 .icon-bar {
     background: #fff !important;
 }
-
-
-
-
-
